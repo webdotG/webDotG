@@ -12,6 +12,8 @@
   padding-left: 10px;
   padding bottom: 7px;
   cursor: pointer;
+  text-transform: uppercase; 
+  letter-spacing: 1.2px;
   -webkit-transition:0.5s;
 }
 
@@ -29,7 +31,7 @@
 }
 
 .header-contatcs__link::before {
-  border-bottom: 1px solid #FFF;
+  border-bottom: 2px solid #FFF;
   /* border-left: 0; */
   -webkit-transform-origin: 0% 100%;
 }

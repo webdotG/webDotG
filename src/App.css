@@ -12,12 +12,21 @@
   font-family: 'Roboto-Regular';
   src: local('Roboto-Regular'),
   url('fonts/Roboto-Regular.ttf') format('truetype');
-  font-weight: bold;
+  font-weight: 500;
 }
 .Roboto-Regular{
   font-family: 'Roboto-Regular';
 }
 
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: local('Roboto-Thin'),
+  url('fonts/Roboto-Thin.ttf') format('truetype');
+  font-weight: 300;
+}
+.Roboto-Regular{
+  font-family: 'Roboto-Thin';
+}
 
 body{
   margin:0;

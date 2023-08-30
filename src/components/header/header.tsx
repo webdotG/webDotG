@@ -1,7 +1,7 @@
 import HeaderNavBtn from './header__nav-btn/header-nav_btn';
-import './header.css'
 import HeaderIconLogin from './header__icon/header__icon--login';
 import HeaderLogo from './header__icon/header__logo';
+import './header.css'
 
 const linkСontact = 'написать'
 const linkClient = 'заказать'

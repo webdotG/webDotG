@@ -1,0 +1,37 @@
+.header {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: black;
+}
+
+.header-logo {
+	color: white;
+	font-size: 8px;
+}
+
+.header-navigation {
+	padding-right: 40px;
+	padding-left: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-contatcs,
+.header-about {
+	display: flex;
+}
+
+.header-contatcs__item,
+.header-about__item {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 21px;
+}
+
+.header-login {
+	display: flex;
+	width: 30px;
+	height: 30px;
+}

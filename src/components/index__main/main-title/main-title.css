@@ -10,9 +10,13 @@
   font-size: 125px;
   color: white;
 }
-
+/* .main-title__title--seconde{
+  margin: 0;
+  padding-left: 60px;
+  font-size: 25px;
+  color: white;
+} */
 .main-title__text-wrapper{
-  padding-top:25px;
   padding-bottom:25px;
 }
 

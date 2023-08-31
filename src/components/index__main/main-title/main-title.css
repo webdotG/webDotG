@@ -8,18 +8,24 @@
 	margin: 0;
 	padding-top: 150px;
   padding-left:60px;
+  padding-bottom:15px;
   font-size: 125px;
   color: #EEEEEE;
 }
-/* .main-title__title--seconde{
+
+.main-title__title{
   margin: 0;
-  padding-left: 60px;
+  padding-left:60px;
+  padding-top:15px;
   font-size: 25px;
-  color: white;
-} */
-.main-title__text-wrapper{
-  padding-bottom:25px;
+  color:#EEEEEE;
 }
+
+.main-title__text-wrapper{
+  padding-bottom:75px;
+  display: flex;
+}
+
 
 .main-title__text{
   margin: 0;

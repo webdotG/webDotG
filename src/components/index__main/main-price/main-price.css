@@ -1,11 +1,11 @@
 .main-price__wrapper {
 	width: 100%;
   padding-top: 25px;
+  padding-bottom: 75px;
 	background-color: #393e46;
 }
 
 .main-price__wrpaper--green {
-	width: 1200px;
 	margin: 0 auto;
   margin-top:25px;
 	background-color: #00adb5;
@@ -27,17 +27,24 @@
 }
 
 .tab {
-	padding: 20px 30px;
+	padding: 30px 10px;
 	background: #00adb5;
 	display: inline-block;
-	color: #393e46;
+	color:#393e46;
   cursor: pointer;
   font-size: 25px;
+  text-transform: uppercase;
 }
 
+
+.tab:focus,
+.tab:hover{
+  color: #EEEEEE;
+}
 .panels {
   width: 100%;
   min-height: 400px;
+  padding-bottom:50px;
 	background: #00adb5;
 	box-shadow: 0 2rem 2rem #00000080;
 	overflow: hidden;
@@ -70,9 +77,12 @@
 #two:checked ~ .panels #two-panel,
 #three:checked ~ .panels #three-panel,
 #four:checked ~ .panels #four-panel {
-	display: block;
-	background: #00adb5;
+	display: flex;
+  width: 850px;
+  height: 450px;
+  margin: 0 auto;
 	color: #eeeeee;
+  border: 2px dotted white;
 }
 
 #one:checked ~ .tabs #one-tab,

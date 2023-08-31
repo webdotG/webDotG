@@ -34,8 +34,11 @@
   cursor: pointer;
   font-size: 25px;
   text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
+  text-transform: uppercase; 
+  letter-spacing: 1.2px;
 }
-
 
 .tab:focus,
 .tab:hover{

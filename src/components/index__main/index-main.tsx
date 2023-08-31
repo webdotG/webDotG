@@ -1,3 +1,4 @@
+import MainPrice from "./main-price/main-price";
 import MainTitle from "./main-title/main-title";
 
 function IndexMain() {
@@ -5,6 +6,7 @@ function IndexMain() {
   return (
     <main>
       <MainTitle />
+      <MainPrice />
     </main>
   )
 }

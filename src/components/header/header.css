@@ -2,7 +2,7 @@
 	width: 100%;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background-color: black;
+	background-color: #393E46;
 }
 
 .header-logo {
@@ -15,7 +15,7 @@
 	padding-left: 40px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: baseline;
 }
 
 .header-contatcs,

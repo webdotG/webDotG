@@ -1,72 +1,84 @@
 .main-price__wrapper {
-  width: 100%;
-  min-height: 400px;
-  background-color: #393E46;
+	width: 100%;
+  padding-top: 25px;
+	background-color: #393e46;
 }
 
-.main-price {
-  width: 1222px;
-  height: 500px;
-  margin: 0 auto;
-  background-color: #00ADB5;
+.main-price__wrpaper--green {
+	width: 1200px;
+	margin: 0 auto;
+  margin-top:25px;
+	background-color: #00adb5;
+}
+.main-price__title{
+  margin: 0;
+ font-size: 60px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ text-align: center;
+ color:  #EEEEEE;
 }
 
+.tabs {
+  padding-top:15px;
+	width: 100%;
+  display:flex;
+  justify-content: space-evenly;
+}
 
 .tab {
+	padding: 20px 30px;
+	background: #00adb5;
+	display: inline-block;
+	color: #393e46;
   cursor: pointer;
-  padding: 10px 20px;
-  margin: 0px 2px;
-  background: #32557f;
-  display: inline-block;
-  color: #fff;
-  border-radius: 3px 3px 0px 0px;
-  box-shadow: 0 0.5rem 0.8rem #00000080;
+  font-size: 25px;
 }
 
 .panels {
-  background: #fff;
-  box-shadow: 0 2rem 2rem #00000080;
-  min-height: 200px;
   width: 100%;
-  max-width: 500px;
-  border-radius: 3px;
-  overflow: hidden;
-  padding: 20px;
+  min-height: 400px;
+	background: #00adb5;
+	box-shadow: 0 2rem 2rem #00000080;
+	overflow: hidden;
 }
 
 .panel {
-  display: none;
-  animation: fadein 0.5s;
+	display: none;
+	animation: fadein 0.5s;
 }
 
 @keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .panel-title {
-  font-size: 1.5em;
-  font-weight: bold;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 .radio {
-  display: none;
+	display: none;
 }
 
 #one:checked ~ .panels #one-panel,
 #two:checked ~ .panels #two-panel,
-#three:checked ~ .panels #three-panel {
-  display: block;
+#three:checked ~ .panels #three-panel,
+#four:checked ~ .panels #four-panel {
+	display: block;
+	background: #00adb5;
+	color: #eeeeee;
 }
 
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
-#three:checked ~ .tabs #three-tab {
-  background: #fff;
-  color: #000;
-  border-top: 3px solid #32557f;
+#three:checked ~ .tabs #three-tab,
+#four:checked ~ .tabs #four-tab {
+	background: #00adb5;
+	color: #eeeeee;
 }

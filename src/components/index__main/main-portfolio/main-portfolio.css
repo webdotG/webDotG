@@ -61,7 +61,7 @@
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(15, 5vw);
-	grid-gap: 10px;
+	grid-gap: 12px;
 }
 .portfoli__lanka-booking {
 	width: 100%;

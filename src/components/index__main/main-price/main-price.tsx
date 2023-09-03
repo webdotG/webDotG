@@ -12,27 +12,47 @@ function MainPrice() {
         <input className="radio" id="four" name="group" type="radio" />
 
         <div className="tabs">
-          <label className="tab Roboto-Regular" id="one-tab" htmlFor="one">сайты</label>
-          <label className="tab Roboto-Regular" id="two-tab" htmlFor="two">приложения</label>
-          <label className="tab Roboto-Regular" id="three-tab" htmlFor="three">чат боты</label>
-          <label className="tab Roboto-Regular" id="four-tab" htmlFor="four">email письма</label>
+          <label className="tab Roboto-Regular" id="one-tab" htmlFor="one"><h3>сайты</h3></label>
+          <label className="tab Roboto-Regular" id="two-tab" htmlFor="two"><h3>приложения</h3></label>
+          <label className="tab Roboto-Regular" id="three-tab" htmlFor="three"><h3>чат боты</h3></label>
+          <label className="tab Roboto-Regular" id="four-tab" htmlFor="four"><h3>email письма</h3></label>
         </div>
 
         <div className="panels">
           <div className="panel" id="one-panel">
-            <div className="panel-title">сайты</div>
-            <p>Content1</p>
+            <h4 className="panel-title">сайты</h4>
+            <div className=''>
+              <h5>лендинг</h5>
+              <ul>
+                <li>шаблон</li>
+                <li>индивидуальный</li>
+              </ul>
+            </div>
+            <div className=''>
+              <h5>корпоротивный сайт</h5>
+              <ul>
+                <li>шаблон</li>
+                <li>индивидуальный</li>
+              </ul>
+            </div>
+            <div className=''>
+              <h5>интернет магазин</h5>
+              <ul>
+                <li>шаблон</li>
+                <li>индивидуальный</li>
+              </ul>
+            </div>
           </div>
           <div className="panel" id="two-panel">
-            <div className="panel-title">приложения</div>
+            <h4 className="panel-title">приложения</h4>
             <p>Content2</p>
           </div>
           <div className="panel" id="three-panel">
-            <div className="panel-title">чат боты</div>
+            <h4 className="panel-title">чат боты</h4>
             <p>Content3</p>
           </div>
           <div className="panel" id="four-panel">
-            <div className="panel-title">email письма</div>
+            <h4 className="panel-title">email письма</h4>
             <p>Content3</p>
           </div>
         </div>

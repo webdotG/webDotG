@@ -23,6 +23,7 @@
 
 .main-about__list {
   padding-top: 33px;
+  padding-bottom: 33px;
   display: flex;
   flex-direction: column;
   align-items: center;

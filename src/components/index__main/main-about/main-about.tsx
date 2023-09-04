@@ -4,11 +4,11 @@ function MainAbout() {
 
   return (
     <div className='main-about__wrapper'>
-      <h2 className='main-about__title'>Процесс работы </h2>
+      <h2 className='main-about__title'>как я работаю </h2>
       <ul className='main-about__list'>
         <li className='main-abou__item'>
           <img src='../../../../public/img/icon--thinking.png' />
-          изучаю задачи, составляю ТЗ
+          изучаю задачу, составляю ТЗ
         </li>
         <li className='main-abou__item'>
           <img src='../../../../public/img/icon--idea.png' />

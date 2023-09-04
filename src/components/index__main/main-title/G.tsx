@@ -2,8 +2,8 @@
 function G() {
 
   return (
-    <svg width="150"
-      height="150"
+    <svg width="170"
+      height="170"
       fill="none"
       viewBox="0 0 48 48"
       id="letter-g">

@@ -1,3 +1,32 @@
+.main-portfolio__wrapper {
+	/* padding-left: 60px;
+	padding-right: 60px;
+	 */
+	background-color: #393e46;
+}
+.main-portfolio {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(15, 5vw);
+	grid-gap: 12px;
+}
+
+.main-portfolio__title{
+	margin:0 ;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	height: 50px;
+	width: 100%;
+	background-color:#222831;
+	font-size: 60px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	text-align: center;
+	color:  #EEEEEE;
+}
+
 .container {
 	position: relative;
 	display: inline-block;
@@ -8,17 +37,17 @@
 	height: 700px;
 	filter: grayscale(0%);
 	filter: grey;
-	transition: 1s ease;
+	transition: 0.5s ease;
 	backface-visibility: hidden;
 	-webkit-filter: grayscale(0%);
-	-webkit-transition: all 1s ease;
+	-webkit-transition: all 0.5s ease;
 }
 
 .portfoli__lanka-booking:hover {
 	filter: grayscale(100%);
 	filter: none;
 	opacity: 0.95;
-	transition: 1s ease;
+	transition: 0.5s ease;
 	/* transform: scale(1.01); */
 	-webkit-filter: grayscale(100%);
 	/* -webkit-transform: scale(1.01); */
@@ -39,30 +68,24 @@
   opacity: 1;
 } */
 
+.container:focus .middle,
 .container:hover .middle {
 	opacity: 1;
 }
 
 .text {
+	display: block;
 	background-color: #00adb5;
 	font-size: 16px;
-	padding: 16px 32px;
+	padding: 12px 24px;
+	color: #EEEEEE;
+	font-size: 25px;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	border-radius: 8px;
 }
 
-.main-portfolio__wrapper {
-	padding-left: 60px;
-	padding-right: 60px;
-	
-	background-color: #393e46;
-}
-.main-portfolio {
-	max-width: 1200px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(15, 5vw);
-	grid-gap: 12px;
-}
+
 .portfoli__lanka-booking {
 	width: 100%;
 	height: 100%;

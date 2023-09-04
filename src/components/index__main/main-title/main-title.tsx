@@ -1,10 +1,14 @@
+import G from './G';
 import './main-title.css'
 
 function MainTitle() {
 
   return (
     <section className='main-title__wrapper'>
-      <h1 className='main-title Roboto-Regular'>webDotG</h1>
+      <div className='letter-g__wrapper' >
+      <h1 className='main-title Roboto-Regular'>webDot</h1>
+      <G/>
+      </div>
       <h6 className='main-title__title Roboto-Regular'>создаю и улучшаю :</h6>
       <div className='main-title__text-wrapper'>
         <p className='main-title__text Roboto-Regular'>сайты</p>

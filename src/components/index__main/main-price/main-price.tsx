@@ -3,7 +3,7 @@ import './main-price.css'
 function MainPrice() {
   return (
     <div className='main-price__wrapper'>
-      <h2 className='main-price__title Roboto-Thin'>цены</h2>
+      <h2 className='main-price__title'>цены</h2>
       <div className='main-price__wrpaper--green'>
 
         <input className="radio" id="one" name="group" type="radio" defaultChecked={true} />
@@ -56,7 +56,6 @@ function MainPrice() {
             <p>Content3</p>
           </div>
         </div>
-
       </div>
     </div>
   );

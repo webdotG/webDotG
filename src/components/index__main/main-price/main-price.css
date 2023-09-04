@@ -1,7 +1,6 @@
 .main-price__wrapper {
 	width: 100%;
   padding-top: 25px;
-  padding-bottom: 75px;
 	background-color: #393e46;
 }
 
@@ -52,7 +51,6 @@
   min-height: 400px;
   padding-bottom:50px;
 	background: #00adb5;
-	box-shadow: 0 2rem 2rem #00000080;
 	overflow: hidden;
 }
 

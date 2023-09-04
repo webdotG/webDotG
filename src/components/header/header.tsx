@@ -2,6 +2,7 @@ import HeaderNavBtn from './header__nav-btn/header-nav_btn';
 import HeaderIconLogin from './header__icon/header__icon--login';
 import HeaderLogo from './header__icon/header__logo';
 import './header.css'
+import HeaderIconTelegram from './header__icon/header__icon-telegram';
 
 const linkСontact = 'написать'
 const linkClient = 'заказать'
@@ -22,9 +23,10 @@ function Header() {
           </section>
           <ul className='header-contatcs'>
             <li className='header-contatcs__item'>
+              <HeaderIconTelegram />
               <HeaderNavBtn link={linkСontact} />
             </li>
-            <li className='header-contatcs__item'>
+            <li className='header-contatcs__item marginBottom'>
               <HeaderNavBtn link={linkClient} />
             </li>
           </ul>

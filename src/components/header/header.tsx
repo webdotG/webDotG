@@ -1,6 +1,6 @@
-import HeaderIconTelegram from './header__icon/header__icon-telegram';
-import HeaderIconLogin from './header__icon/header__icon--login';
-import HeaderLogo from './header__icon/header__logo';
+import HeaderIconTelegram from '../icons/header__icon-telegram';
+import HeaderIconLogin from '../icons/header__icon--login';
+import HeaderLogo from '../icons/header__logo';
 import './header.css'
 
 

@@ -1,8 +1,9 @@
 
-.main-order__wrapper{
-  background-color: #393e46;
-	padding-bottom:12px;
+.main-order{
+  
+	padding-bottom:40px;
   min-height: 500px;
+  background-color: #393e46;
 }
 
 .main-order__title{
@@ -17,4 +18,22 @@
 	text-transform: uppercase;
 	text-align: center;
 	color:  #EEEEEE;
+}
+
+.main-order__list {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-order__item a{
+  color:#EEEEEE;
+}
+
+.main-order__form {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #00adb5;
 }

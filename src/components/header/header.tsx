@@ -1,41 +1,42 @@
-import HeaderNavBtn from './header__nav-btn/header-nav_btn';
+import HeaderIconTelegram from './header__icon/header__icon-telegram';
 import HeaderIconLogin from './header__icon/header__icon--login';
 import HeaderLogo from './header__icon/header__logo';
 import './header.css'
-import HeaderIconTelegram from './header__icon/header__icon-telegram';
 
-const linkСontact = 'написать'
-const linkClient = 'заказать'
-const linkService = 'услуги'
-const linkPortfolio = 'портфолио'
 
 function Header() {
 
   return (
-
-    <>
       <header className='header'>
         <nav className='header-navigation'>
           <section className='header-logo__wrapper'>
             <a className='header-logo' href="">
-              <HeaderLogo />  
+              <HeaderLogo />
             </a>
           </section>
           <ul className='header-contatcs'>
             <li className='header-contatcs__item'>
               <HeaderIconTelegram />
-              <HeaderNavBtn link={linkСontact} />
+              <a className='header-contatcs__link Roboto-Bold' href="">
+                написать
+              </a>
             </li>
-            <li className='header-contatcs__item marginBottom'>
-              <HeaderNavBtn link={linkClient} />
+            <li className='header-contatcs__item'>
+              <a className='header-contatcs__link Roboto-Bold' href="">
+                заказать
+              </a>
             </li>
           </ul>
           <ul className='header-about'>
             <li className='header-about__item'>
-              <HeaderNavBtn link={linkService} />
+              <a className='header-contatcs__link Roboto-Bold' href="">
+                услуги
+              </a>
             </li>
             <li className='header-about__item'>
-              <HeaderNavBtn link={linkPortfolio} />
+              <a className='header-contatcs__link Roboto-Bold' href="">
+                портфолио
+              </a>
             </li>
           </ul>
           <section className='header-login__wrapper'>
@@ -45,7 +46,6 @@ function Header() {
           </section>
         </nav>
       </header>
-    </>
   )
 }
 

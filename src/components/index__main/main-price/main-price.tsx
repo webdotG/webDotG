@@ -35,6 +35,7 @@ function MainPrice() {
             <div className='main-price__site-description-wrapper'>
               <MainPriceCorporate />
               <h5>корпоротивный сайт</h5>
+              <p>одностраничный сайт-визитка</p>
               <ul>
                 <li>шаблон</li>
                 <li>индивидуальный</li>
@@ -43,6 +44,7 @@ function MainPrice() {
             <div className='main-price__site-description-wrapper'>
               <MainPriceShop />
               <h5>интернет магазин</h5>
+              <p></p>
               <ul>
                 <li>шаблон</li>
                 <li>индивидуальный</li>

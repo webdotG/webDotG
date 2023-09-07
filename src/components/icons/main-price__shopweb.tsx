@@ -2,7 +2,7 @@
 function MainPriceShop() {
 
   return (
-    <svg  width="110px" height="110px" fill="#EEEEEE" id="Capa_1" version="1.1" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg" xmlns: xlink="http://www.w3.org/1999/xlink">
+    <svg  width="100px" height="100px" fill="#EEEEEE" id="Capa_1" version="1.1" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg" xmlns: xlink="http://www.w3.org/1999/xlink">
       <g>
         <g>
           <path d="M336,55.305c-5.52,0-10,4.48-10,10s4.48,10,10,10c5.52,0,10-4.48,10-10S341.52,55.305,336,55.305z" />

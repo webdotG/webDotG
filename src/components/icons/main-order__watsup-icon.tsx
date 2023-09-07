@@ -1,5 +1,5 @@
 
-function WatsUpIcon() {
+function MainOrderWatsUp() {
 
   return (
     <svg viewBox="0 0 50 50" width="35px" height="35px" fill="#00ADB5">
@@ -8,4 +8,4 @@ function WatsUpIcon() {
   )
 }
 
-export default WatsUpIcon
+export default MainOrderWatsUp

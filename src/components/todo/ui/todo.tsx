@@ -33,7 +33,7 @@ function Todo() {
       <h1 className={style.todo_title}>todo list</h1>
       <ToDoInpuField text={text} handleInput={setText} handleSubmit={handleAction} />
       
-    {status === 'loadin' && <h3>загрузка</h3>}
+    {status === 'loading' && <h3>загрузка</h3>}
     {error && <h3>ошибка : {error}</h3>}
 
       <ToDoList />

@@ -7,8 +7,7 @@ function ToDoInpuField({text, handleSubmit, handleInput}) {
     <label className={style.todo_label}>
       <input className={style.todo_label_input} value={text}
        onChange={(e) => handleInput(e.target.value)}></input>
-      <button 
-      onClick={handleSubmit}>добавить</button>
+      <button onClick={handleSubmit}>добавить</button>
     </label>
   )
 }

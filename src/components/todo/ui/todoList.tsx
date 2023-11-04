@@ -4,12 +4,12 @@ import ToDoItem from "./todoItem"
 import style from './todo.module.scss'
 
 function ToDoList () {
-  const todos = useSelector(state => state.todos.todos)
+  const todosList = useSelector(state => state.todos.todosList)
 
   return (
     <ul className={style.todo_list}>
         {
-          todos.map(todo => 
+          todosList.map(todo => 
           <ToDoItem key={todo.id} {...todo}/>)
         }
       </ul>

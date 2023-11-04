@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import ToDoList from './todoList'
 import style from './todo.module.scss'
 import ToDoInpuField from './todoInputField'
-import { addToDo, fetchTodos } from '../../../store/todoSlice'
+import { fetchAddNewTodo, fetchTodos } from '../../../store/todoSlice'
 
 // export type typeToDo = {
 //   id: number | string | never,
@@ -19,7 +19,7 @@ function Todo() {
 
   const handleAction = () => {
     if (text.trim().length) {
-      dispatch(addToDo({ text }))
+      dispatch(fetchAddNewTodo(text))
       setText('')
     }
   }

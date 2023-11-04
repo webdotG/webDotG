@@ -69,6 +69,39 @@ export const fetchToggleStatusTodo = createAsyncThunk(
   }
 )
 
+export const fetchAddNewTodo = createAsyncThunk(
+  'todos/fetchAddNewTodo',
+  async function (text, {rejectWithValue, dispatch}) {
+
+    try {
+      const todo = {
+        title: text,
+        userId: 1,
+        completed: false,
+      }
+
+      const response = await fetch('https://jsonplaceholder.typicode.com/todos', {
+        method: 'POST',
+        headers: {
+          'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify(todo)
+      })
+      if (!response.ok) {
+        throw new Error('не могу создать задачу')
+      }
+
+      const data = await response.json()
+      console.log(data)
+      dispatch(addToDo(data))
+
+    } catch (error) {
+      return rejectWithValue(error.message)
+    }
+    
+  }
+)
+
 const todoSlice = createSlice({
   name: 'todos',
   initialState: {
@@ -79,11 +112,12 @@ const todoSlice = createSlice({
   reducers: {
 
     addToDo(state, action) {
-      state.todosList.push({
-        id: new Date().toISOString(),
-        text: action.payload.text,
-        completed: false,
-      })
+      state.todosList.push(action.payload)
+      // state.todosList.push({
+      //   id: new Date().toISOString(),
+      //   text: action.payload.text,
+      //   completed: false,
+      // })
     },
 
     removeTodo(state, action) {

@@ -17,9 +17,7 @@
   height: 30px;
   margin-top: 5px;
   margin-bottom: 10px;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
-input:checked + span{
-  border: 2px solid blue;
-}

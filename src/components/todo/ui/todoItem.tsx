@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux/es/exports'
-import { removeTodo, toggleToDoCompleted } from '../../../store/todoSlice'
+import { fetchDeleteTodo, toggleToDoCompleted } from '../../../store/todoSlice'
 import style from './todo.module.scss'
 
 function ToDoItem({ id, title, completed }) {
@@ -12,7 +12,7 @@ function ToDoItem({ id, title, completed }) {
         onChange={() => dispatch(toggleToDoCompleted({id}))} />
       <h4>{title}</h4>
       <button
-        onClick={() => dispatch(removeTodo({id}))}>             удалить</button>
+        onClick={() => dispatch(fetchDeleteTodo(id))}>             удалить</button>
     </li>
   )
 }

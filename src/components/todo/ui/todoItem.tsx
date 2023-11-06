@@ -1,9 +1,15 @@
-import { useDispatch } from 'react-redux/es/exports'
+import { useAppDispatch } from '../../../store/hook'
 import { fetchDeleteTodo, fetchToggleStatusTodo } from '../../../store/todoSlice'
 import style from './todo.module.scss'
 
-function ToDoItem({ id, title, completed }) {
-  const dispatch = useDispatch()
+type typeTodoItemProps = {
+  id: string,
+  title: string,
+  completed: boolean
+}
+
+function ToDoItem({ id, title, completed }: typeTodoItemProps) {
+  const dispatch = useAppDispatch()
 
   return (
     <li className={style.todo_item}

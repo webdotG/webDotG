@@ -1,19 +1,13 @@
 import { useState, useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useAppDispatch, useAppSelector } from '../../../store/hook'
 import ToDoList from './todoList'
 import style from './todo.module.scss'
 import ToDoInpuField from './todoInputField'
 import { fetchAddNewTodo, fetchTodos } from '../../../store/todoSlice'
 
-// export type typeToDo = {
-//   id: number | string | never,
-//   text: string | never,
-//   completed: boolean | never
-// }
-
 function Todo() {
-  const dispatch = useDispatch()
-  const {status, error} =useSelector(state => state.todos)
+  const dispatch = useAppDispatch()
+  const { loading, error } = useAppSelector(state => state.todos)
 
   const [text, setText] = useState('')
 
@@ -24,17 +18,20 @@ function Todo() {
     }
   }
 
-  useEffect( () => {
+  useEffect(() => {
     dispatch(fetchTodos())
   }, [dispatch])
 
   return (
     <div className={style.todo_wrapper}>
       <h1 className={style.todo_title}>todo list</h1>
-      <ToDoInpuField text={text} handleInput={setText} handleSubmit={handleAction} />
-      
-    {status === 'loading' && <h3>загрузка</h3>}
-    {error && <h3>ошибка : {error}</h3>}
+      <ToDoInpuField
+        text={text}
+        handleInput={setText}
+        handleSubmit={handleAction} />
+
+      {loading && <h3>загрузка</h3>}
+      {error && <h3>ошибка : {error}</h3>}
 
       <ToDoList />
     </div>

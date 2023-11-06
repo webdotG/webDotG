@@ -1,7 +1,13 @@
 
 import style from './todo.module.scss'
 
-function ToDoInpuField({text, handleSubmit, handleInput}) {
+interface typeNewTodoProps {
+  text: string,
+  handleInput: (str: string) => void,
+  handleSubmit: () => void,
+}
+
+const ToDoInpuField: React.FC<typeNewTodoProps> = ({text, handleSubmit, handleInput}) => {
 
   return (
     <label className={style.todo_label}>

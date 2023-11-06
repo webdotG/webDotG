@@ -1,9 +1,9 @@
 {
   "name": "webdotg",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": " https://webdotg.github.io/webDotG/"
+  "homepage": " https://webdotg.github.io/webDotG/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

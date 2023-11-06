@@ -3,7 +3,7 @@ function MainPriceLending () {
 
   return (
 
-<svg version="1.1" fill="#EEEEEE" id="Capa_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 612 612"  xml:space="preserve">
+<svg version="1.1" fill="#EEEEEE" id="Capa_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 612 612"  xmlSpace="preserve">
 <g>
 	<g>
 		<path d="M545.007,129.946H66.98c-0.004,0-0.008,0-0.008,0c-10.714,0-20.863,10.224-20.863,20.959v310.201

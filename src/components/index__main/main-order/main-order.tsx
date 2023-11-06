@@ -31,7 +31,7 @@ function MainOrder() {
         </div>
         <div className='main-order__input-wrapper'>
           <p className='main-order__comment-label'>коментарий</p>
-            <textarea id='main-order__comment-input' name="comment" cols="40" rows="3" />
+            <textarea id='main-order__comment-input' name="comment" cols={40} rows={3} />
         </div>
         <button className='main-order__btn-submit Roboto-Regular' type='submit'>отправить</button>
       </form>

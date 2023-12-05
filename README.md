@@ -1,7 +1,7 @@
 <h2> Hi there, I'm Kirill Grant / webDotG</h2>
 <br>
 
-<h2 align="center">Social link:</h2>
+<h2>Social link:</h2>
  <div id="badges">
    <a href="https://t.me/kirillgrant" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="40" height="40" alt="telegram group" />

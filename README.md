@@ -1,9 +1,9 @@
 <a href="https://t.me/kirillgrant" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="55" height="55" alt="telegram group" />
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="45" height="45" alt="telegram" />
 </a>
-<br>
+
 <h1>Kirill Grant</h1>
-<br>
+
 <div>
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-plain.svg" title="git" alt="git" width="40" height="40" />&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" title="html5" alt="html5" width="40" height="40"/>&nbsp

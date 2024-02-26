@@ -1,10 +1,11 @@
 <a href="https://t.me/kirillgrant" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="45" height="45" alt="telegram" />
 </a>
-
+<br>
 <h1>Kirill Grant</h1>
-
-<div>
+<br>
+<h4>my 'badge/icon' collection: </h4>
+<br>
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" title="html5" alt="html5" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" title="css" alt="css" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" title="sass" alt="sass/scss" width="40" height="40"/>&nbsp;
@@ -25,4 +26,3 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain.svg" title="mongodb" alt="mongodb" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg" title="dBeaver" alt="dBeaver" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" title="nginx" alt="nginx" width="40" height="40"/>&nbsp  
-</div>

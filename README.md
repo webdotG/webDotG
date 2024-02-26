@@ -16,8 +16,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"  alt="reactjs" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" title="redux" alt="redux" width="40" height="40"/>&nbsp; 
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" title="nodejs" alt="nodejs" width="40" height="40"/>&nbsp
-      
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" "title="express2" alt="express2" width="40" height="40"/>&nbsp
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" title="express2" alt="express2" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg "title="express" alt="express" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg" title="next" alt="next" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" title="postgreSQl" alt="postgreSQL" width="40" height="40"/>&nbsp

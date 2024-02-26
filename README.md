@@ -4,10 +4,7 @@
 <br>
 <h1>Kirill Grant</h1>
 <br>
-<br>
-<h2>Languages and Tools:</h2>
 <div>
-      
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-plain.svg" title="git" alt="git" width="40" height="40" />&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" title="html5" alt="html5" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" title="css" alt="css" width="40" height="40"/>&nbsp

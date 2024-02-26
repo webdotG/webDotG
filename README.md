@@ -1,9 +1,6 @@
-<h2> Hi there, I'm Kirill Grant / webDotG</h2>
-<div id="badges">
-   <a href="https://t.me/kirillgrant" target="_blank">
+<h2>Kirill Grant</h2><a href="https://t.me/kirillgrant" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="40" height="40" alt="telegram group" />
     </a>
- </div>
 <br>
 <br>
 <h2>Languages and Tools:</h2>

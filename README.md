@@ -1,5 +1,5 @@
 ## <a href="https://t.me/kirillgrant" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="24" height="24" alt="telegram" />  Kirill Grant</a> 
-**<h4>my 'badge/icon' collection: </h4>**
+**<h4>my icon' collection: </h4>**
 <div>
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" title="html5" alt="html5" width="40" height="40"/>&nbsp
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" title="css" alt="css" width="40" height="40"/>&nbsp

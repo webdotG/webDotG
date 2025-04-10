@@ -25,3 +25,6 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" title="ubuntu" alt="ubuntu" width="40" height="40" />&nbsp  
           
 </div>
+
+**<h4>LeetCode</h4>**  
+[![LeetCode Stats](https://leetcode-stats-six.vercel.app/api?username=webdotg&theme=light)](https://leetcode.com/u/webdotg/)

@@ -27,6 +27,7 @@
 </div>
 
 **<h4></h4>**   
-<img src="https://leetcode-stats-six.vercel.app/api?username=webdotg&theme=light" width="100" height="50"  alt="LeetCode Stats" />
-
-![LeetCode](https://leetcode-badge.vercel.app/api?username=webdotg&type=light)
+<h3>🧮 LeetCode Stats</h3>
+<a href="https://leetcode.com/u/webdotg/" target="_blank">
+  <img src="https://leetcode-stats-six.vercel.app/api?username=webdotg&theme=light" alt="LeetCode Stats" width="500"/>
+</a>

@@ -26,5 +26,5 @@
           
 </div>
 
-**<h4>LeetCode</h4>**  
-[![LeetCode Stats](https://leetcode-stats-six.vercel.app/api?username=webdotg&theme=light)](https://leetcode.com/u/webdotg/)
+**<h4></h4>**   
+<img src="https://leetcode-stats-six.vercel.app/api?username=webdotg&theme=light" alt="LeetCode Stats" />

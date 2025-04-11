@@ -29,7 +29,7 @@
 **<h4></h4>**   
 <a href="https://leetcode.com/u/webdotg/" target="_blank" text-decoration='none' >
 <img src="https://leetcode.com/apple-touch-icon-114x114.png" width="42" height="42" alt="leetcode" />
-<code>Link</code>
+<img src="#" width="42" height="42" alt="Link" />
 <img src="https://www.typescriptlang.org/icons/icon-96x96.png?v=8944a05a8b601855de116c8a56d3b3ae" width="35" height="35" alt="TypeScript" /> 
 
 </a>

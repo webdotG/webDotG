@@ -27,4 +27,8 @@
 </div>
 
 **<h4></h4>**   
-<img src="https://leetcode-stats-six.vercel.app/api?username=webdotg&theme=light" alt="LeetCode" />
+<a href="https://leetcode-stats-six.vercel.app/api?username=webdotg&theme=light" target="_blank"/>
+<img src="https://leetcode.com/apple-touch-icon-114x114.png" width="42" height="42" alt="leetcode" />
+<img src="https://www.typescriptlang.org/icons/icon-96x96.png?v=8944a05a8b601855de116c8a56d3b3ae" width="35" height="35" alt="TypeScript" /> 
+</a>
+

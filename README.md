@@ -26,9 +26,5 @@
           
 </div>
 
-**<h4></h4>**   
-<a href="https://leetcode.com/u/webdotg/" target="_blank" text-decoration='none' >
-<img src="https://leetcode.com/apple-touch-icon-114x114.png" width="42" height="42" alt="leetcode" />
-<code>Link</code>
-</a>
+
 
